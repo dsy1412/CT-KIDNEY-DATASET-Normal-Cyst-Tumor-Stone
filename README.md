@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a deep learning project for CT kidney image analysis. It was made for the Children's Hospital of Philadelphia imaging data analyst internship position. The project includes data preprocessing, machine learning models, and detailed reports. It can automatically analyze CT kidney images and classify them into four types: Normal, Cyst, Tumor, and Stone.
+This is a deep learning project for CT kidney image analysis. The project includes data preprocessing, machine learning models, and detailed reports. It can automatically analyze CT kidney images and classify them into four types: Normal, Cyst, Tumor, and Stone.
 
 ## Project Features
 
