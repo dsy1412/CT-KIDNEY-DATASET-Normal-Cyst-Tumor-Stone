@@ -1,0 +1,27 @@
+# CT肾脏影像数据分析项目依赖
+# Children's Hospital of Philadelphia 影像数据分析师实习项目Demo
+
+# 核心数据处理
+pandas>=1.5.0
+numpy>=1.21.0
+
+# 图像处理
+Pillow>=9.0.0
+opencv-python>=4.6.0
+
+# 机器学习和深度学习
+torch>=1.12.0
+torchvision>=0.13.0
+scikit-learn>=1.1.0
+
+# 数据可视化
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# 数据库
+sqlite3
+
+# 其他工具
+pathlib2>=2.3.0
+tqdm>=4.64.0
