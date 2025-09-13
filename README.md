@@ -1,10 +1,10 @@
-# CT Kidney Disease Classification Project 🏥
+# CT Kidney Disease Classification Project 
 
 ## Project Overview
 
 This is a deep learning project for CT kidney image analysis. It was made for the Children's Hospital of Philadelphia imaging data analyst internship position. The project includes data preprocessing, machine learning models, and detailed reports. It can automatically analyze CT kidney images and classify them into four types: Normal, Cyst, Tumor, and Stone.
 
-## 🎯 Project Features
+## Project Features
 
 - **Complete medical image processing pipeline**: From raw data to model predictions
 - **Multiple machine learning methods**: Traditional feature extraction + Random Forest, Deep learning CNN models
@@ -12,7 +12,7 @@ This is a deep learning project for CT kidney image analysis. It was made for th
 - **Detailed performance evaluation**: Confusion matrix, classification reports, visualization charts
 - **Reproducible experiment design**: Fixed random seeds, standardized processes
 
-## 📊 Dataset Information
+## Dataset Information
 
 - **Total samples**: 12,446 CT images
 - **Class distribution**:
@@ -23,7 +23,7 @@ This is a deep learning project for CT kidney image analysis. It was made for th
 - **Image format**: JPG format, 224x224 pixels
 - **Data source**: Public CT kidney dataset
 
-## 🚀 Project Structure
+## Project Structure
 
 ```
 CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/
@@ -65,7 +65,7 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-## 📈 Experiment Results
+## Experiment Results
 
 ### Feature Extraction Method (Random Forest)
 Traditional machine learning method based on image feature extraction:
@@ -92,7 +92,7 @@ The project extracts 11-dimensional image features:
 
 ![Experiment Results Chart](realistic_demo_report_en.png)
 
-## 🔬 Core Technologies
+## Core Technologies
 
 ### 1. Data Preprocessing (`data_preprocessing_en.py`)
 - **Image quality validation**: Detect corrupted and invalid images
@@ -117,7 +117,7 @@ features = [
 - **Regularization techniques**: Dropout, batch normalization
 - **Learning rate scheduling**: Adaptive learning rate adjustment
 
-## 🎮 How to Use
+##  How to Use
 
 ### Quick Start
 ```bash
@@ -145,7 +145,7 @@ learning_rate = 1e-4        # Learning rate
 num_epochs = 10             # Training epochs
 ```
 
-## 📊 Quality Assurance
+## Quality Assurance
 
 ### Data Integrity
 - **No data leakage**: Strict separation of training and test data
@@ -157,63 +157,3 @@ num_epochs = 10             # Training epochs
 - **Standardized pipeline**: Unified data processing and model training workflow
 - **Detailed logging**: Complete experiment parameters and results recording
 
-## 🏥 Clinical Application Value
-
-### Skills for Children's Hospital of Philadelphia
-- **Medical image feature extraction and analysis**
-- **Machine learning model development and validation**
-- **Rigorous experimental design and quality control**
-- **Statistical analysis and performance evaluation**
-- **Data visualization and report generation**
-- **Python scientific computing ecosystem**
-
-### Potential Clinical Impact
-- **Automated kidney disease classification**
-- **Scalable image processing workflows**
-- **Quality-controlled machine learning pipelines**
-- **Reproducible research methodology**
-
-## 📈 Performance Improvement Suggestions
-
-1. **Data augmentation**: Add more samples and data augmentation techniques
-2. **Model ensemble**: Combine multiple models to improve prediction accuracy
-3. **Hyperparameter tuning**: Use grid search or Bayesian optimization
-4. **Feature engineering**: Develop more medical imaging-specific features
-5. **Class imbalance handling**: Use SMOTE or cost-sensitive learning
-
-## 🤝 How to Contribute
-
-Welcome code contributions and improvement suggestions! Please follow these steps:
-
-1. Fork this project
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Create Pull Request
-
-## 📝 License
-
-This project uses MIT License - see [LICENSE](LICENSE) file for details
-
-## 👨‍💻 Author
-
-**Shawn Deng**
-- 📧 Email: [Your Email]
-- 💼 LinkedIn: [LinkedIn Profile]
-- 🎯 Target Position: Children's Hospital of Philadelphia - Imaging Data Analyst Intern
-
-## 🙏 Acknowledgments
-
-- Thanks to the public dataset providers
-- Thanks to Children's Hospital of Philadelphia for the internship opportunity
-- Thanks to the open source community for support
-
-## 📚 References
-
-1. He, K., et al. "Deep residual learning for image recognition." CVPR 2016.
-2. Ronneberger, O., et al. "U-Net: Convolutional Networks for Biomedical Image Segmentation." MICCAI 2015.
-3. Litjens, G., et al. "A survey on deep learning in medical image analysis." Medical Image Analysis 2017.
-
----
-
-**Note**: This project is for academic research and technical demonstration only. It should not be used directly for clinical diagnosis. For clinical use, please ensure proper medical device certification and clinical validation.
